@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dhirajbalakrishnan.dev/</loc>
+    <lastmod>2023-01-01T16:34:52+05:30</lastmod>
+  </url><url>
+    <loc>https://dhirajbalakrishnan.dev/tags/goals/</loc>
+    <lastmod>2023-01-01T16:34:52+05:30</lastmod>
+  </url><url>
+    <loc>https://dhirajbalakrishnan.dev/posts/goals2023/</loc>
+    <lastmod>2023-01-01T16:34:52+05:30</lastmod>
+  </url><url>
+    <loc>https://dhirajbalakrishnan.dev/posts/</loc>
+    <lastmod>2023-01-01T16:34:52+05:30</lastmod>
+  </url><url>
+    <loc>https://dhirajbalakrishnan.dev/tags/</loc>
+    <lastmod>2023-01-01T16:34:52+05:30</lastmod>
+  </url><url>
     <loc>https://dhirajbalakrishnan.dev/setup/</loc>
     <lastmod>2022-08-14T10:42:16+05:30</lastmod>
   </url><url>
@@ -11,9 +26,6 @@
     <loc>https://dhirajbalakrishnan.dev/tags/covid/</loc>
     <lastmod>2020-08-29T22:22:10+05:30</lastmod>
   </url><url>
-    <loc>https://dhirajbalakrishnan.dev/</loc>
-    <lastmod>2020-08-29T22:22:10+05:30</lastmod>
-  </url><url>
     <loc>https://dhirajbalakrishnan.dev/tags/experiences/</loc>
     <lastmod>2020-08-29T22:22:10+05:30</lastmod>
   </url><url>
@@ -21,12 +33,6 @@
     <lastmod>2020-08-29T22:22:10+05:30</lastmod>
   </url><url>
     <loc>https://dhirajbalakrishnan.dev/posts/organizing-a-hackathon-during-covid-pandemic/</loc>
-    <lastmod>2020-08-29T22:22:10+05:30</lastmod>
-  </url><url>
-    <loc>https://dhirajbalakrishnan.dev/posts/</loc>
-    <lastmod>2020-08-29T22:22:10+05:30</lastmod>
-  </url><url>
-    <loc>https://dhirajbalakrishnan.dev/tags/</loc>
     <lastmod>2020-08-29T22:22:10+05:30</lastmod>
   </url><url>
     <loc>https://dhirajbalakrishnan.dev/tags/analytics/</loc>
