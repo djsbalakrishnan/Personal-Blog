@@ -9,7 +9,7 @@ draft: false
 ### What is on my Desk?
 I have always been a sucker for good desk setups, and I have wanted one ever since I saw [MKBHD\'s youtube video](https://www.youtube.com/watch?v=Ij9njxJUyUQ). While my desk setup is not glamourous, it is functional, and I am happy with its current state. So, here we go!
 
-- **Laptop**: I use a four-year-old [MSI GL63](https://www.amazon.in/MSI-GL63-8RD-450IN-15-6-inch-i7-8750H/dp/B07BQ4K767) laptop running [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) as my personal driver. I bought this with my Dell internship stipend, and it is one of my priced possessions. 
+- **Laptop**: I use an [Apple MacBook Air](https://www.apple.com/macbook-air-m1/) running macOS Ventura as my personal driver. I bought this recently for my side gig. 
 
 - **Monitor**: I use a [BenQ 27 Inch FHD](https://www.benq.com/en-in/monitor/stylish/gw2780.html) display. I bought this during an Amazon sale.  
 
@@ -19,7 +19,7 @@ I have always been a sucker for good desk setups, and I have wanted one ever sin
 
 - **Speakers**: I got an [Amazon Echo Plus](https://www.amazon.in/All-new-Echo-Plus-2nd-built/dp/B0794JD9JS) for winning a hackathon at Dell. I have been using it for over a year, and honestly, I use it for setting reminders and listening to music. 
 
-- **Earphones**: I switch between [boAt Airdopes 441](https://www.boat-lifestyle.com/products/airdopes-441) (wireless) and [boAt Bassheads 100](https://www.boat-lifestyle.com/products/bassheads-100) (wired). 
+- **Earphones**: I switch between [boAt Airdopes 441](https://www.boat-lifestyle.com/products/airdopes-441) (wireless) and [KZ ZSN Pro](https://www.headphonezone.in/products/kz-zsn-pro-x) (wired). 
 
 - **Table**: I have always wanted a wide table and found this from the Facebook marketplace for a reasonable price. 
 
