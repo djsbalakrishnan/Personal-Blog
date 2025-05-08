@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Dhiraj Balakrishnan"
 theme = "ezhil"
 
-copyright = "© 2022 - Dhiraj "
+copyright = "© 2025 - Dhiraj "
 
 # Enable syntax highlighting.
 pygmentsstyle = "solarized-dark"
@@ -12,7 +12,7 @@ pygmentscodefencesguesssyntax = true
 
 
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
+pagination.pagerSize = 10
 
 # Number of characters to show in summary.
 summaryLength = 20
@@ -35,12 +35,12 @@ summaryLength = 20
 
     # Switch to dark mode or auto detect mode from OS (Optional).
     # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-    mode = "auto" # "dark" or "auto"
+    mode = "light" # "dark" or "auto"
 
     # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
     # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
     # you can specify custom css path as `css/custom.css`.
-    # customCSS = "css/custom.css"
+    customCSS = "css/custom.css"
 
     # Custom CSS added to dark mode style.
     # customDarkCSS = "css/custom-dark.css"
@@ -62,19 +62,14 @@ url = "/impossible-list"
 weight = 2
 
 [[menu.main]]
-name = "Projects"
-url = "/projects"
+name = "Newsletter"
+url = "/newsletter"
 weight = 3
 
 [[menu.main]]
 name = "Setup"
 url = "/setup"
 weight = 4
-
-[[menu.main]]
-name = "Causes"
-url = "/causes"
-weight = 5
 
 [[menu.main]]
 name = "Tags"
@@ -101,8 +96,11 @@ url = "https://twitter.com/djsbalakrishnan"
 [[params.social]]
 name = "Youtube"
 icon = "youtube"
-url = "https://www.youtube.com/channel/UCzysZIoDvN7w_0irA0g7BCw"
+url = "https://www.youtube.com/@djsbala"
 
 # Enable tags.
 [taxonomies]
    tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe= true

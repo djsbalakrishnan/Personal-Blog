@@ -9,7 +9,7 @@ draft: false
 ### What is on my Desk?
 I have always been a sucker for good desk setups, and I have wanted one ever since I saw [MKBHD\'s youtube video](https://www.youtube.com/watch?v=Ij9njxJUyUQ). While my desk setup is not glamourous, it is functional, and I am happy with its current state. So, here we go!
 
-- **Laptop**: I use an [Apple MacBook Air](https://www.apple.com/macbook-air-m1/) running macOS Ventura as my personal driver. I bought this recently for my side gig. 
+- **Laptop**: I use an [Apple MacBook M1 Pro](apple.com/in/shop/buy-mac/macbook-pro/14-inch-macbook-pro) running macOS Sequoia as my personal driver. I bought this recently for my side gig.
 
 - **Monitor**: I use a [BenQ 27 Inch FHD](https://www.benq.com/en-in/monitor/stylish/gw2780.html) display. I bought this during an Amazon sale.  
 
@@ -19,15 +19,15 @@ I have always been a sucker for good desk setups, and I have wanted one ever sin
 
 - **Speakers**: I got an [Amazon Echo Plus](https://www.amazon.in/All-new-Echo-Plus-2nd-built/dp/B0794JD9JS) for winning a hackathon at Dell. I have been using it for over a year, and honestly, I use it for setting reminders and listening to music. 
 
-- **Earphones**: I switch between [boAt Airdopes 441](https://www.boat-lifestyle.com/products/airdopes-441) (wireless) and [KZ ZSN Pro](https://www.headphonezone.in/products/kz-zsn-pro-x) (wired). 
+- **Earphones**: I switch between [Airpods Pro 2](https://www.apple.com/in/shop/buy-airpods/airpods-pro-2) (wireless) and [KZ ZSN Pro](https://www.headphonezone.in/products/kz-zsn-pro-x) (wired). 
 
 - **Table**: I have always wanted a wide table and found this from the Facebook marketplace for a reasonable price. 
 
 - **Chair**: One of the best purchases ever. I spend over 10 hours sitting in front of my computer every day, and a plastic chair was not sustainable. I shifted to a [Featherlite Astro Ergonomic](https://www.amazon.in/gp/product/B09DNZPTJ8/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&th=1) chair; honestly, it is the best purchase ever.
 
-- **Tablet**: I use a [Samsung Tab S7+](https://www.samsung.com/in/tablets/galaxy-tab-s/galaxy-tab-s7-plus-mystic-bronze-128gb-wi-fi-sm-t970nznainu/) for taking handwritten notes. 
+- **Tablet**: I use a [iPad Pro 11-inch](https://www.apple.com/in/ipad-pro/) for taking handwritten notes. 
 
-- **Mobile**: I use a [Samsung A71](https://www.samsung.com/levant/smartphones/galaxy-a/galaxy-a71-blue-128gb-sm-a715fzbgmid/) as my daily driver. Thanks to Samsung Flow, the clipboard is shared with my tablet. 
+- **Mobile**: I use a [iPhone 13](https://www.apple.com/by/iphone-13/specs/) as my daily driver. 
 
 
 ### What's next? 
