@@ -1,2 +1,5 @@
 # ignore all directories with the name public
 /public
+.DS_Store
+.env
+/themes
