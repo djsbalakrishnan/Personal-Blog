@@ -28,4 +28,3 @@ So, that's what you can expect – a mix of practical problem-solving, interesti
     >
     </iframe>
 </div>
-    
