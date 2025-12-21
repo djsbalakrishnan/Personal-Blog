@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Dhiraj Balakrishnan"
 theme = "ezhil"
 
+# URL configuration - ensures absolute URLs are generated
+canonifyURLs = true
+relativeURLs = false
+
 copyright = "© 2025 - Dhiraj "
 
 # Enable syntax highlighting.
