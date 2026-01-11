@@ -7,7 +7,7 @@ theme = "ezhil"
 canonifyURLs = true
 relativeURLs = false
 
-copyright = "© 2025 - Dhiraj "
+copyright = "© 2026 - Dhiraj "
 
 # Enable syntax highlighting.
 pygmentsstyle = "solarized-dark"

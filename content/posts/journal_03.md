@@ -1,7 +1,7 @@
 ---
 title: "Journal #03"
 date: 2025-09-26T13:57:41+05:30
-draft: false
+draft: true
 description: ""
 tags: [Journal, NewsLetter]
 ---
