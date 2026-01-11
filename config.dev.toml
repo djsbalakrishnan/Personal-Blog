@@ -1,0 +1,6 @@
+# Development configuration override
+# Use this when running: hugo serve --config config.toml,config.dev.toml
+
+baseURL = "http://localhost:1313"
+relativeURLs = true
+
