@@ -12,20 +12,18 @@ The **Google File System (GFS)** paper (2003) is the grandfather of modern Big D
 
 I spent the weekend breaking down the paper and annotating the critical architectural decisions.
 
-### 1. Download the Notes
-Here is the PDF with my highlights and architectural sketches.
+### 1. Download the Annotated Paper
+Here is the original paper with my highlights.
 
-[**Download Annotated GFS Paper (PDF)**](pdf/GFS_Research_Paper.pdf)
+<a href="pdf/GFS_Research_Paper.pdf" target="_blank"><strong>Download Annotated GFS Paper (PDF)</strong></a>
 
 ---
 
-### 2. Join the Live Deep Dive (Jan 18)
-The notes are the *what*. The class is the *why*.
+### 2. Session Notes (Update: Jan 18)
+**The live deep-dive is now complete.** We spent 90 minutes today breaking down the "Kohli Highlights" analogy, the GFS Write Flow, and the evolution to Colossus. 
 
-I am hosting a live, engineer-to-engineer breakdown of this architecture. We will go beyond the paper and discuss how this evolved into **Colossus** and why modern object stores look different.
+If you missed the session (or want to review the diagrams), I have compiled the full lecture notes and slides below. These cover the specific consistency guarantees and the "Choreographed Dance" of the primary/secondary replicas.
 
-**When:** **Saturday, Jan 18** from **11:00 AM - 1:00 PM IST**
-
-[**👉 Register for the Live Class (Luma)**](https://luma.com/8u3o34ms)
+<a href="pdf/GFS_Notes.pdf" target="_blank"><strong>Download Session Notes & Slides (PDF)</strong></a>
 
 *See you in the trenches.*
