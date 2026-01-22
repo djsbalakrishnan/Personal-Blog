@@ -72,10 +72,10 @@ weight = 3
 [menu.main.params]
 target = "_blank"
 
-[[menu.main]]
-name = "Newsletter"
-url = "/newsletter"
-weight = 4
+# [[menu.main]]
+# name = "Newsletter"
+# url = "/newsletter"
+# weight = 4
 
 [[menu.main]]
 name = "Setup"

@@ -16,9 +16,7 @@ For all of you who are wondering what an impossible list is, let me borrow a few
 Here is mine.
 
 ### Current Focuses
-- Learn to cook five dishes
-- Post four youtube videos in a month
-- Complete 60 days of Meditation
+- Complete 30 days of Journal
 
 
 ### Life Goals
@@ -44,7 +42,7 @@ Here is mine.
 - ~~Conduct a workshop on Python~~ [(April 2018)](https://www.instagram.com/p/Bh4jX_SjctZ/)
     - Conduct a workshop on Pycon
 - ~~Start a YouTube channel on Programming~~ [(July 2022)](https://www.youtube.com/channel/UCzysZIoDvN7w_0irA0g7BCw)
-    - Post four youtube videos in a month
+    - ~~Post four youtube videos in a month~~ [djsbala](https://www.youtube.com/@djsbala)
 - Start a company on waste management
 
 
@@ -54,9 +52,10 @@ Here is mine.
 - Read 25 pages a day for 3 months
 - Complete 100 Days of Code
 - ~~Complete 30 Days to Minimalism~~ (January 2020)
-    - Complete Project 16-3. Personalized version of Project 33-3
+    - ~~Complete Project 16-3. Personalized version of Project 33-3~~ (Thanks to WFH)
 - ~~Complete 30 days of Meditation~~ (July 2022)
     - Complete 60 days of Meditation 
+- Complete 30 days of Journal
 
 
 ### Creative Goals
@@ -68,8 +67,8 @@ Here is mine.
 
 ### Skill Goals
 - Build / Repair my bike
-- Learn Designing and Editing
-- Learn to cook five dishes
+- ~~Learn Designing and Editing~~ (Edited videos for my Youtube Channel)
+- ~~Learn to cook five dishes~~ (Egg Burji, Paneer Burji, Paneer Butter Masala, Besan Laddoo, Paneer Tikka)
 
 
 ### Travel Goals
