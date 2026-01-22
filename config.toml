@@ -61,19 +61,26 @@ url = "/posts"
 weight = 1
 
 [[menu.main]]
-name = "Impossible List"
+name = "Impossible-List"
 url = "/impossible-list"
 weight = 2
 
 [[menu.main]]
+name = "Memento-Mori"
+url = "/memento-mori"
+weight = 3
+[menu.main.params]
+target = "_blank"
+
+[[menu.main]]
 name = "Newsletter"
 url = "/newsletter"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Setup"
 url = "/setup"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Tags"

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memento Mori</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --text: #e0e0e0;
+            --accent: #00ff41; /* Matrix Green */
+            --dim: #333;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Courier New', monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container { width: 90%; max-width: 600px; }
+        h1 { font-size: 1.5rem; margin-bottom: 2rem; text-align: center; opacity: 0.8; }
+        
+        /* Progress Bars */
+        .metric { margin-bottom: 2rem; }
+        .label { display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.9rem; }
+        .bar-container { width: 100%; height: 10px; background: var(--dim); border-radius: 5px; overflow: hidden; }
+        .bar { height: 100%; background: var(--accent); width: 0%; transition: width 1s ease-in-out; }
+        
+        /* The Grid */
+        .grid-section { margin-top: 3rem; text-align: center; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(52, 1fr); /* 52 Weeks */
+            gap: 2px;
+            margin-top: 1rem;
+        }
+        .box { width: 100%; aspect-ratio: 1; background: var(--dim); border-radius: 1px; }
+        .lived { background: var(--text); opacity: 0.3; }
+        .current { background: var(--accent); box-shadow: 0 0 5px var(--accent); }
+
+        /* Stats */
+        .big-stat { font-size: 4rem; font-weight: bold; text-align: center; margin: 1rem 0; color: var(--accent); }
+        .sub-stat { text-align: center; opacity: 0.6; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>STATUS REPORT</h1>
+
+        <div class="big-stat" id="yearsLeft">00.0</div>
+        <div class="sub-stat">YEARS REMAINING (TARGET: 80)</div>
+
+        <br><br>
+
+        <div class="metric">
+            <div class="label"><span>DAY</span><span id="day-val">0%</span></div>
+            <div class="bar-container"><div class="bar" id="day-bar"></div></div>
+        </div>
+
+        <div class="metric">
+            <div class="label"><span>MONTH</span><span id="month-val">0%</span></div>
+            <div class="bar-container"><div class="bar" id="month-bar"></div></div>
+        </div>
+
+        <div class="metric">
+            <div class="label"><span>YEAR (2026)</span><span id="year-val">0%</span></div>
+            <div class="bar-container"><div class="bar" id="year-bar"></div></div>
+        </div>
+
+        <div class="metric">
+            <div class="label"><span>LIFE</span><span id="life-val">0%</span></div>
+            <div class="bar-container"><div class="bar" id="life-bar" style="background: #ff4141;"></div></div>
+        </div>
+
+        <div class="grid-section">
+            <div class="label" style="justify-content: center;">YOUR 4,160 WEEKS</div>
+            <div class="grid" id="life-grid"></div>
+        </div>
+    </div>
+
+    <script>
+        // ---------------- CONFIGURATION ---------------- //
+        const BIRTHDAY = new Date("1996-01-03"); // ⚠️ CHANGE THIS TO YOUR BIRTHDAY
+        const TARGET_AGE = 80;
+        // ----------------------------------------------- //
+
+        function updateStats() {
+            const now = new Date();
+            
+            // 1. Day Progress
+            const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            const dayProgress = ((now - startOfDay) / (1000 * 60 * 60 * 24)) * 100;
+            updateBar('day', dayProgress);
+
+            // 2. Month Progress
+            const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+            const endOfMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0);
+            const monthProgress = ((now - startOfMonth) / (endOfMonth - startOfMonth)) * 100;
+            updateBar('month', monthProgress);
+
+            // 3. Year Progress
+            const startOfYear = new Date(now.getFullYear(), 0, 1);
+            const endOfYear = new Date(now.getFullYear() + 1, 0, 1);
+            const yearProgress = ((now - startOfYear) / (endOfYear - startOfYear)) * 100;
+            updateBar('year', yearProgress);
+
+            // 4. Life Progress
+            const deathDay = new Date(BIRTHDAY);
+            deathDay.setFullYear(BIRTHDAY.getFullYear() + TARGET_AGE);
+            
+            const totalLife = deathDay - BIRTHDAY;
+            const livedLife = now - BIRTHDAY;
+            const lifeProgress = (livedLife / totalLife) * 100;
+            const yearsRemaining = (deathDay - now) / (1000 * 60 * 60 * 24 * 365.25);
+            
+            updateBar('life', lifeProgress);
+            document.getElementById('yearsLeft').innerText = yearsRemaining.toFixed(5); // Realtime anxiety
+
+            // Render Grid (Only once)
+            if(document.getElementById('life-grid').childElementCount === 0) renderGrid(livedLife, totalLife);
+        }
+
+        function updateBar(id, value) {
+            document.getElementById(`${id}-bar`).style.width = `${value}%`;
+            document.getElementById(`${id}-val`).innerText = `${value.toFixed(1)}%`;
+        }
+
+        function renderGrid(lived, total) {
+            const totalWeeks = TARGET_AGE * 52;
+            const livedWeeks = Math.floor((lived / total) * totalWeeks);
+            const grid = document.getElementById('life-grid');
+
+            for (let i = 0; i < totalWeeks; i++) {
+                const box = document.createElement('div');
+                box.className = 'box';
+                if (i < livedWeeks) box.classList.add('lived');
+                if (i === livedWeeks) box.classList.add('current');
+                grid.appendChild(box);
+            }
+        }
+
+        setInterval(updateStats, 100); // Update every 100ms
+        updateStats();
+    </script>
+</body>
+</html>
