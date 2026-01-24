@@ -16,6 +16,8 @@ For all of you who are wondering what an impossible list is, let me borrow a few
 Here is mine.
 
 ### Current Focuses
+- Reach and maintain 78kg (±3kg) bodyweight.
+- Complete the 90-Day dopamine-reset streak.
 - Complete 30 days of Journal
 
 
@@ -25,14 +27,13 @@ Here is mine.
 
 
 ### Fitness Goals
-- Quit Sugar for a month
 - ~~Cycle 100KMs in a day~~ [(December 2019)](https://www.instagram.com/p/B5xfhfMAkD3/)
     - Cycle 100KMs in a day with duration of each break less than 15 minutes
-- Complete a Triathlon
-- Complete a 10KM marathon
-- Finish 25m swim in less than 15 seconds
 - ~~Get a body score of 90 in MI Scale~~ [(July 2020)](https://www.notion.so/djsbalakrishnan/Week-27-51feb56d4914489eacffe53e6d95d60f)
-    - Get a body score of 90 in MI Scale consecutively for 3 months 
+    - Get a body score of 90 in MI Scale consecutively for 3 months
+- Complete a 10KM marathon
+- Complete 240 Surya Namaskars in a single month. 
+- Complete 30 consecutive days of 16:8 Fasting (12:30 PM - 10:00 PM) with ZERO processed snacks.
 
 
 ### Professional Goals
@@ -43,32 +44,27 @@ Here is mine.
     - Conduct a workshop on Pycon
 - ~~Start a YouTube channel on Programming~~ [(July 2022)](https://www.youtube.com/channel/UCzysZIoDvN7w_0irA0g7BCw)
     - ~~Post four youtube videos in a month~~ [djsbala](https://www.youtube.com/@djsbala)
-- Start a company on waste management
+- Secure / get promoted to a Staff Engineer offer (Remote/US Product).
+- Publish 12 Deep-Dive Engineering / System Design Articles in 2026.
+- Generate ₹55,000/month in purely passive income.
 
 
 ### Habit Goals
 - ~~Do a morning workout for 100 days in a row~~ (June 2020)
     - Do a morning workout for 200 days in a row
-- Read 25 pages a day for 3 months
-- Complete 100 Days of Code
 - ~~Complete 30 Days to Minimalism~~ (January 2020)
     - ~~Complete Project 16-3. Personalized version of Project 33-3~~ (Thanks to WFH)
 - ~~Complete 30 days of Meditation~~ (July 2022)
     - Complete 60 days of Meditation 
 - Complete 30 days of Journal
-
-
-### Creative Goals
-- Play 5 songs flawlessly in Violin
-- Learn beatboxing
-- Click and edit picture that I can sell in Shutterstock
-- Create my own travel blog as a passion project
+- Read 25 pages a day for 3 months
 
 
 ### Skill Goals
 - Build / Repair my bike
 - ~~Learn Designing and Editing~~ (Edited videos for my Youtube Channel)
 - ~~Learn to cook five dishes~~ (Egg Burji, Paneer Burji, Paneer Butter Masala, Besan Laddoo, Paneer Tikka)
+- Teach a complex System Design topic (e.g., Distributed Transactions) to 50+ engineers.
 
 
 ### Travel Goals
