@@ -2,7 +2,7 @@
 title: "Journal #04"
 date: 2026-05-03T00:49:02+05:30
 draft: false
-tags: [Journal, NewsLetter, System Design]
+tags: [Journal, NewsLetter]
 ---
 
 ### 🔧 LeetCode Problem of the Week
